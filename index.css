@@ -63,10 +63,18 @@ button {
 	margin: 12px 0;
 	height: 45px;
 	width: 100%;
+	line-height: 45px;
 	font-size: 20px;
 	color: #000;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
 	background-color: #fbefdf;
 	border-style: none;
 	outline-style: none;
 	-webkit-appearance:none;
+}
+
+.nav .nav_btn:active {
+	background-color: #BBBBB4;
 }
