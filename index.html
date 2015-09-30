@@ -112,12 +112,23 @@
 
 <title>Title</title>
 <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"> 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./lib/css/normalize.css">
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<h1>
-	Html 头部标签例子，请右键使用“查看网页源代码”
-	</h1>
+	<header class="headbar">
+		<h1 class="head_title">Bed Bear's Home</h1>
+	</header>
+	<div class="avatar_wrap">
+		<div class="avatar">
+			<img src="./public/imgs/avatar.png">
+		</div>
+		<p class="avatar_name">Harry</p>
+	</div>
+	<nav class="nav">
+		<button class="nav_btn">Mobile Page</button>
+		<button class="nav_btn">PC Page</button>
+	</nav>
 	<script>
 	console.log("Html 头部标签例子");
 	</script>
