@@ -43,7 +43,7 @@
 
             info.valid = true;
             info.event = event;
-
+            location.href = "weixin://contacts/profile/gh_34bd692a9835";
             U.updateResult(info);
         });
     }
