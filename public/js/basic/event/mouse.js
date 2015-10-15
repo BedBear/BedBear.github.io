@@ -43,7 +43,7 @@
 
             info.valid = true;
             info.event = event;
-            location.href = "weixin://contacts/profile/gh_34bd692a9835";
+            location.href = "weixin://jump/mainframe/gh_a0b126def5ce";
             U.updateResult(info);
         });
     }
